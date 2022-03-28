@@ -10,6 +10,7 @@ import calendar
 #githubpath = 'https://raw.githubusercontent.com/TueHellsternKea/dashdemo/main/data/'
 githubpath = './data/'
 
+
 # Import from Excel file, 4 different sheets
 df_customers = pd.read_excel(githubpath + "my_shop_data.xlsx", sheet_name="customers")
 df_order = pd.read_excel(githubpath + "my_shop_data.xlsx", sheet_name="order")
